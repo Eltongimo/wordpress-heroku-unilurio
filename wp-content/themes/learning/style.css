@@ -1,0 +1,121 @@
+/*
+Theme Name: First Wordpress Site
+Author: Elton Uacha Gimo
+Version: 0.0.1
+*/
+
+body{
+	
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+	
+}
+
+a:link,
+a:visited{
+	color: #006ec3;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+/*General layout */
+
+div.container{
+	max-width: 920px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+/*Header*/
+
+.site-header{
+	/*border-bottom: 1px solid #999;*/
+}
+
+.site-footer{
+	
+	margin-top: 50px;
+	border-top: 1px solid #999;
+}
+
+article.post{
+	border-bottom: 2px dotted #999;
+}
+
+article.post:last-of-type{
+	border-bottom: none;
+}
+
+
+.site-nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Site header*/
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+nav ul:before, nav ul:after{ content: ""; display: table;}
+nav ul:after{clear: both;}
+nav ul {*zoom: 1;}
+
+
+nav ul li{
+	margin-right: 5px;
+}
+
+nav ul li{
+	list-style: none;
+	float: left;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+	display: block;
+	padding: 10px 18px;
+	border: 1px solid #BBB;
+	/*border-bottom: none;*/
+	text-decoration: none;
+}
+
+
+nav ul li a:hover{
+	background-color: #ECECEC;
+}
+
+
+
+nav ul li.current-menu-item a:link,
+nav ul li.current-menu-item a:visited{
+	
+	background-color: #006ec3;
+	color: #FFF;
+}
+
+
+.site-footer nav ul li{
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px dotted #BBB;
+	
+}
+
+
+
+/*Page layout*/
+
+
+
+
+
+
